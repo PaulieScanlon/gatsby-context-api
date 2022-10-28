@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-context-api",
+  "version": "1.0.0",
+  "description": "Example for how to use React's Context API with Gatsby",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/gatsby-context-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/gatsby-context-api/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/gatsby-context-api#readme",
+  "dependencies": {
+    "@urql/core": "^3.0.5",
+    "gatsby": "^4.24.5",
+    "react": "^18.2.0",
+    "react-code-blocks": "^0.0.9-0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "gatsby-plugin-postcss": "^5.24.0",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1"
+  }
+}
