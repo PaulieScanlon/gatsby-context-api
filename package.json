@@ -10,6 +10,9 @@
     "serve": "gatsby serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PaulieScanlon/gatsby-context-api.git"
@@ -23,14 +26,14 @@
   "homepage": "https://github.com/PaulieScanlon/gatsby-context-api#readme",
   "dependencies": {
     "@urql/core": "^3.0.5",
-    "gatsby": "^4.24.5",
+    "gatsby": "^5.0.0",
     "react": "^18.2.0",
     "react-code-blocks": "^0.0.9-0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
-    "gatsby-plugin-postcss": "^5.24.0",
+    "gatsby-plugin-postcss": "^6.0.0",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.1"
   }
